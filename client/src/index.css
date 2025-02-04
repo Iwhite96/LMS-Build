@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+IN:wght@100..400&display=swap');
+@import "tailwindcss";
+
+
+h1{
+font-size:var(--course-details-heading-small, 26px 36px);
+font-size:var(--course-details-heading-large, 36px 44px);
+font-size:var(--home-heading-small, 28px 34px);
+font-size:var(--home-heading-large 48px, 56px);
+font-size:var(--default, 15px 21px)
+}
+
+*{
+  font-family: Outfit;
+}
+
+
+
+
+/* layer: {
+  extend: {
+    fontSize: {
+      course-details-heading-small: 26px, 36px,
+      course-details-heading-large: 36px, 44px,
+      home-heading-small: 28px, 34px,
+      home-heading-large: 48px, 56px,
+      default: 15px, 21px,
+    },
+  },
+}, */
